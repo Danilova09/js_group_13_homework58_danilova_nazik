@@ -1,0 +1,24 @@
+<h4 class="text-center">Form</h4>
+<form (ngSubmit)="createUser()" ngNativeValidate>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input required type="name" class="form-control" id="name" placeholder="name" #nameInput>
+  </div>
+  <div class="form-group mt-5">
+    <label for="email">Email address</label>
+    <input required type="email" class="form-control" id="email" placeholder="email@example.com" #emailInput>
+  </div>
+  <div class="form-group form-check my-4">
+    <input type="checkbox" class="form-check-input" id="active" #checkboxActiveInput>
+    <label class="form-check-label" for="active">Active yes/no</label>
+  </div>
+  <div class="form-group">
+    <label for="role">Role</label>
+    <select class="form-control" id="role" #selectRole>
+      <option>User</option>
+      <option>Editor</option>
+      <option>Admin</option>
+    </select>
+  </div>
+  <button class="btn btn-primary mt-5" type="submit">add</button>
+</form>

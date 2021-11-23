@@ -1,0 +1,9 @@
+<h4 class="text-center mt-3">New group</h4>
+
+<form (ngSubmit)="createGroup()" ngNativeValidate>
+  <div class="form-group">
+    <label for="group">Group</label>
+    <input required type="group" class="form-control" id="group" placeholder="group" #groupInput>
+  </div>
+  <button type="submit" class="btn btn-primary">create</button>
+</form>
