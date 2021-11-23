@@ -21,7 +21,7 @@ export class NewUserComponent {
     const active = this.checkboxActiveInput.nativeElement.checked;
     const role = this.selectRole.nativeElement.value;
     const user = new User(name, email, active, role);
-    this.usersService.users.push(user);
+    this.usersService.addUser(user);
   }
 
 }

@@ -9,6 +9,7 @@ import { UsersComponent } from './users/users.component';
 import { GroupsComponent } from './groups/groups.component';
 import { UsersService } from './shared/users.service';
 import { UserComponent } from './users/user/user.component';
+import { GroupItemComponent } from './groups/group-item/group-item.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UserComponent } from './users/user/user.component';
     NewGroupComponent,
     UsersComponent,
     GroupsComponent,
-    UserComponent
+    UserComponent,
+    GroupItemComponent
   ],
   imports: [
     BrowserModule,
