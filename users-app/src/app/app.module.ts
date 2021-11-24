@@ -10,6 +10,8 @@ import { GroupsComponent } from './groups/groups.component';
 import { UsersService } from './shared/users.service';
 import { UserComponent } from './users/user/user.component';
 import { GroupItemComponent } from './groups/group-item/group-item.component';
+import { GroupsService } from './shared/groups.service';
+import { GroupItemListComponent } from './groups/group-item/group-item-list/group-item-list.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +21,14 @@ import { GroupItemComponent } from './groups/group-item/group-item.component';
     UsersComponent,
     GroupsComponent,
     UserComponent,
-    GroupItemComponent
+    GroupItemComponent,
+    GroupItemListComponent
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
-  providers: [UsersService],
+  providers: [UsersService, GroupsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

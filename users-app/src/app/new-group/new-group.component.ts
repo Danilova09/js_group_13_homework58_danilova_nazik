@@ -1,4 +1,6 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { GroupsService } from '../shared/groups.service';
+import { Group } from '../shared/group.model';
 
 @Component({
   selector: 'app-new-group',
@@ -7,8 +9,13 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 })
 export class NewGroupComponent {
   @ViewChild('groupInput') groupInput!: ElementRef;
+  
+  constructor(public groupService: GroupsService) {}
+
   createGroup() {
-    const group = this.groupInput.nativeElement.value;
+    const groupName = this.groupInput.nativeElement.value;
+    const group = new Group(groupName);
+    this.groupService.addGroup(group);
   }
 
 }

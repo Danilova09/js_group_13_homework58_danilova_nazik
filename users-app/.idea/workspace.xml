@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1a45c14-df1d-4765-8c2f-ea4fb84a2e0f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/group.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/groups.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/groups/group-item/group-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/groups/group-item/group-item.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/groups/group-item/group-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/groups/group-item/group-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/groups/group-item/group-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/groups/group-item/group-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/groups/groups.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/groups/groups.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/groups/groups.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/groups/groups.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/new-user/new-user.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/new-user/new-user.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/groups/groups.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/groups/groups.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/new-group/new-group.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/new-group/new-group.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/shared/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/users.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/users/user/user.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/user/user.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/users/users.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/users.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/users/user/user.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/user/user.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/users/user/user.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/user/user.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/users/users.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/users.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +48,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -80,7 +87,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637651494459</updated>
-      <workItem from="1637651499635" duration="4966000" />
+      <workItem from="1637651499635" duration="9501000" />
+      <workItem from="1637733886294" duration="38000" />
+      <workItem from="1637733997525" duration="14000" />
+      <workItem from="1637734046656" duration="9476000" />
     </task>
     <servers />
   </component>
@@ -97,8 +107,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/groups/group-item/group-item.component.html</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

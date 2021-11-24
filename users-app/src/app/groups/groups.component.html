@@ -1,5 +1,6 @@
 <h4 class="text-center">Groups</h4>
 
-<app-group-item></app-group-item>
-<app-group-item></app-group-item>
-<app-group-item></app-group-item>
+<app-group-item *ngFor="let group of groups; let i = index"
+ [group]="group"
+(chooseGroup)="onChooseGroup(i)"
+[choosenGroup]=" { choosenGroup: false }"></app-group-item>

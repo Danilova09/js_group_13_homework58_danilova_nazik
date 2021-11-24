@@ -1,10 +1,9 @@
-<div class="card mt-3">
+<div class="card mt-3" (click)="onChooseGroup()" [ngClass]="choosenGroup">
   <div class="card-body">
-    <h5 class="card-title">Hicking Group</h5>
+    <h5 class="card-title">{{ group.groupName }}</h5>
     <ul>
-      <li>Alex</li>
-      <li>Jace</li>
-      <li>Violette</li>
+      <app-group-item-list *ngFor="let groupMember of group.groupMembers"
+      [groupMember]="groupMember"></app-group-item-list>
     </ul>
   </div>
 </div>
